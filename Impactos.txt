@@ -1,0 +1,8 @@
+ALTER TABLE [NuevaEmpresa]
+
+ADD [nEmpEnvMailApi] CHAR(1)     NULL CONSTRAINT nEmpEnvMailApiNuevaEmpresa_DEFAULT DEFAULT 'N' WITH VALUES
+
+
+ALTER TABLE [NuevaEmpresa]
+
+DROP CONSTRAINT nEmpEnvMailApiNuevaEmpresa_DEFAULT

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="7e64aa76-082c-4023-bc10-46f1af9d39a5">
+  <Table name="Nit" />
+  <Table name="novedades" />
+  <Table name="Contrato" />
+  <Table name="ParametrosNomina" />
+  <Table name="NuevaEmpresa" />
+  <Table name="Empresa" />
+  <Table name="BitacoraReportes" />
+  <Table name="Area" />
+  <Table name="Cargos" />
+  <Table name="CentroCostos" />
+  <Table name="Ciudad" />
+  <Table name="Dependencia" />
+  <Table name="Proviciones" />
+  <Table name="NomConceptos" />
+  <Table name="novedadesDetalle" />
+  <Table name="novedadesInc" />
+  <Table name="NomResponsable" />
+  <Table name="CategoriaContrato" />
+  <Table name="Novedadesmes" />
+</Dependencies>
