@@ -7,7 +7,7 @@ app.use(
     })
   )
   app.use(express.json());
-const port = 3000;
+//const port = 3000;
 
 var respuesta;
 app.post("/correo", (req, res) =>{
@@ -69,10 +69,11 @@ app.post("/correo", (req, res) =>{
   }
 });
 
+const PORT = process.env.PORT || 3000;
 
 
-app.listen(port, () =>{
-  console.log("My port: " + port);
+app.listen(PORT, () =>{
+  console.log("My port: " + PORT);
 });
 
 

@@ -1,5 +1,5 @@
 cd C:\correos
-node index2.js
+node index.js
 
 
 
