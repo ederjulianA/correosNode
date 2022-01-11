@@ -1,4 +1,5 @@
 const express = require("express");
+const res = require("express/lib/response");
 const nodemailer = require('nodemailer');
 const app = express();
 app.use(
@@ -10,6 +11,9 @@ app.use(
 //const port = 3000;
 
 var respuesta;
+app.get("/", (req,res)=>{
+  res.send('hello world');
+});
 app.post("/correo", (req, res) =>{
   const { email, password,archivo,destino, asunto,mensaje,copiacorreo } = req.query;
   let parametros = req.body;
